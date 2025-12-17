@@ -1,0 +1,18 @@
+{
+  "scope": "A",
+  "description": "Temporary Ignition Identity Provider created during password reset which uses the User Source Profile named \"temp\".",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "system-init",
+      "timestamp": "2025-12-17T18:47:32Z"
+    },
+    "uuid": "40b216c4-c1d0-41c3-b2f2-17f6fbf8a5b7",
+    "lastModificationSignature": "b6288c65fafb609cd26ca822324e6935a90f36bff3e058597b84dcfb7e081d69"
+  }
+}

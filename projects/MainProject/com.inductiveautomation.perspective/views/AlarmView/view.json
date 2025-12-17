@@ -3,7 +3,7 @@
   "params": {},
   "props": {
     "defaultSize": {
-      "height": 324
+      "height": 271
     }
   },
   "root": {
@@ -30,6 +30,18 @@
               "name": "InternalAlarmJournal"
             },
             "type": "ia.display.alarmjournaltable"
+          },
+          {
+            "meta": {
+              "name": "AlarmJournalTable_0"
+            },
+            "position": {
+              "tabIndex": 2
+            },
+            "props": {
+              "name": "CriticalAlarms"
+            },
+            "type": "ia.display.alarmjournaltable"
           }
         ],
         "meta": {
@@ -40,12 +52,14 @@
           "grow": 1
         },
         "props": {
+          "currentTabIndex": 2,
           "tabSize": {
             "width": 200
           },
           "tabs": [
             "Alarm Status Table",
-            "Alarm Journal"
+            "Alarm Journal",
+            "Critical Alarms"
           ]
         },
         "type": "ia.container.tab"
