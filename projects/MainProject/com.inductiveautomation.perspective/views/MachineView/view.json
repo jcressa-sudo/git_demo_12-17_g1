@@ -122,23 +122,24 @@
               "$": [
                 "ts",
                 0,
-                1760559203191
+                1765998168680
               ],
-              "$ts": 1760559202150
+              "$ts": 1765998167636
             },
             "rangeStartDate": {
               "$": [
                 "ts",
                 0,
-                1760559203191
+                1765998168680
               ],
-              "$ts": 1760558903150
+              "$ts": 1765997868636
             },
             "unitOfTime": 5,
             "visibility": {
               "buttons": {
                 "showTagBrowserButton": false
-              }
+              },
+              "showTagBrowser": true
             }
           },
           "interaction": {
@@ -153,7 +154,7 @@
               "axis": "",
               "data": {
                 "aggregateMode": "default",
-                "source": "histprov:WrongHistorian:/sys:FlatFileTraining:/prov:default:/tag:Pumps/Pump1"
+                "source": "histprov:CoreHistorian:/sys:ignition-su-bktps54-lt:/prov:default:/tag:pumps/pump1"
               },
               "display": {
                 "breakLine": true,
@@ -212,7 +213,7 @@
                 "type": "line"
               },
               "enabled": true,
-              "name": "Pump1",
+              "name": "pump1",
               "plot": 0,
               "selectable": true,
               "visible": true
@@ -221,7 +222,7 @@
               "axis": "",
               "data": {
                 "aggregateMode": "default",
-                "source": "histprov:WrongHistorian:/sys:FlatFileTraining:/prov:default:/tag:Pumps/Pump2"
+                "source": "histprov:CoreHistorian:/sys:ignition-su-bktps54-lt:/prov:default:/tag:pumps/pump2"
               },
               "display": {
                 "breakLine": true,
@@ -280,7 +281,7 @@
                 "type": "line"
               },
               "enabled": true,
-              "name": "Pump2",
+              "name": "pump2",
               "plot": 0,
               "selectable": true,
               "visible": true
@@ -289,7 +290,7 @@
               "axis": "",
               "data": {
                 "aggregateMode": "default",
-                "source": "histprov:WrongHistorian:/sys:FlatFileTraining:/prov:default:/tag:Pumps/Pump3"
+                "source": "histprov:CoreHistorian:/sys:ignition-su-bktps54-lt:/prov:default:/tag:pumps/pump3"
               },
               "display": {
                 "breakLine": true,
@@ -348,7 +349,7 @@
                 "type": "line"
               },
               "enabled": true,
-              "name": "Pump3",
+              "name": "pump3",
               "plot": 0,
               "selectable": true,
               "visible": true
@@ -357,7 +358,7 @@
               "axis": "",
               "data": {
                 "aggregateMode": "default",
-                "source": "histprov:WrongHistorian:/sys:FlatFileTraining:/prov:default:/tag:Pumps/Pump4"
+                "source": "histprov:CoreHistorian:/sys:ignition-su-bktps54-lt:/prov:default:/tag:pumps/pump4"
               },
               "display": {
                 "breakLine": true,
@@ -416,7 +417,7 @@
                 "type": "line"
               },
               "enabled": true,
-              "name": "Pump4",
+              "name": "pump4",
               "plot": 0,
               "selectable": true,
               "visible": true
@@ -425,7 +426,7 @@
               "axis": "",
               "data": {
                 "aggregateMode": "default",
-                "source": "histprov:WrongHistorian:/sys:FlatFileTraining:/prov:default:/tag:Pumps/Pump5"
+                "source": "histprov:CoreHistorian:/sys:ignition-su-bktps54-lt:/prov:default:/tag:pumps/pump5"
               },
               "display": {
                 "breakLine": true,
@@ -484,7 +485,7 @@
                 "type": "line"
               },
               "enabled": true,
-              "name": "Pump5",
+              "name": "pump5",
               "plot": 0,
               "selectable": true,
               "visible": true
@@ -493,7 +494,7 @@
               "axis": "",
               "data": {
                 "aggregateMode": "default",
-                "source": "histprov:WrongHistorian:/sys:FlatFileTraining:/prov:default:/tag:Pumps/Pump6"
+                "source": "histprov:CoreHistorian:/sys:ignition-su-bktps54-lt:/prov:default:/tag:pumps/pump6"
               },
               "display": {
                 "breakLine": true,
@@ -552,7 +553,7 @@
                 "type": "line"
               },
               "enabled": true,
-              "name": "Pump6",
+              "name": "pump6",
               "plot": 0,
               "selectable": true,
               "visible": true
